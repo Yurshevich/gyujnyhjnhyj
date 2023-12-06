@@ -1,0 +1,329 @@
+.carta {
+  /* text-align: center;
+  font-size: 80px;
+  padding: 10px 0; */
+  width: 100%;
+  height: 400px;
+  margin: 0 auto; 
+  display: block;
+}
+
+.map {
+  text-align: center;
+}
+
+.photos-container2 {
+  display: flex;
+  justify-content: center;
+}
+
+.photo1 {
+  text-align: center;
+  margin: 300px;
+}
+
+.caption {
+  margin-top: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.appointment-form {
+  width: 300px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* для ie8 */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container2 {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 250px;
+  border: 20px solid rgb(177, 215, 255);
+  border-radius: 150px;
+}
+
+.prays {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 300px;
+  border: 300px solid #c7e2ff;
+  border-radius: 3000px;
+
+}
+
+.form-group2 {
+  margin-bottom: 100px;
+}
+
+.form-group2 label {
+  display: block;
+  margin-bottom: 50px;
+}
+
+.form-group2 select {
+  width: 100%;
+  padding: 40px;
+  border: 5px solid #007bff;
+  border-radius: 100px;
+}
+
+.form-group2 button {
+  text-align: center;
+  font-size: 48px;
+  padding: 30px 125px;
+  background-color: #c7e2ff;
+  color: #000000;
+  border: none;
+  border-radius: 1000px;
+  cursor: pointer;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.logo img {
+  float: left;
+  margin-left: 1440px;
+  height: 150px;
+}
+
+.logo2 img {
+  float: left;
+  margin-left: 1440px;
+  height: 150px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.line-images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.images {
+  margin: 10px;
+  text-align: center;
+}
+
+.images img {
+  width: 300px;
+  height: auto;
+}
+
+footer {
+  background-color: #B5C3E7;
+  color: #ffffff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+body {
+  width: var(--screen-resolution);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 100px;
+}
+
+header {
+  background-color: #B5C3E7;
+  color: #ffffff;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.grafik {
+  background-color: #ECF9FF;
+  color: #000000;
+  padding: 50px 0;
+  text-align: center;
+
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 100px;
+}
+
+header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: #2000bf;
+  text-decoration: underline;
+}
+
+.photos-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  /* Высота равна высоте видимой области страницы */
+  display: flex;
+  flex-direction: column;
+  /* Расположение по вертикали */
+  justify-content: space-between;
+  /* Равномерное распределение по вертикали */
+  align-items: center;
+  /* Выравнивание по горизонтали */
+}
+
+.top-photos,
+.bottom-photos {
+  display: flex;
+}
+
+.top-photos img,
+.bottom-photos img {
+  margin: 300px;
+  /* Добавление отступов между изображениями */
+}
+
+h5 {
+  text-align: center;
+  font-size: 70px;
+  padding: 10px 0;
+  color: #8b1515;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  padding: 10px 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 150px;
+  padding: 20px 0;
+  color: #000000;
+  font-family: Century;
+}
+
+h3 {
+  text-align: center;
+  font-size: 80px;
+  padding: 10px 0;
+}
+
+h4 {
+  text-align: center;
+  font-size: 80px;
+  padding: 10px 0;
+  color: #cfc8c8;
+}
+
+.line-images {
+  display: flex;
+}
+
+.line-images div {
+  width: 33.333%;
+  padding: 0 90px;
+}
+
+.line-images .images img {
+  width: 100%;
+}
+
+.sposob img {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line-images button {
+  width: 100%;
+  color: #fff;
+  background-color: #B5C3E7;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 70px;
+}
+
+.line-images button:hover {
+  background-color: #B5C3E7;
+  cursor: pointer;
+}
+
+.text {
+  padding: 20px 0;
+}
+
+.text p {
+  padding: 10px 0;
+}
+
+th,
+td {
+  border: 1px solid white;
+  padding: 10px;
+}
+
+ul li {
+  margin-left: 100px;
+}
+
+
+
+footer {
+  font-size: 24px;
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-color: #007bff;
+  }
+
+  header {
+    background-color: #bfe7b5;
+  }
+} 
